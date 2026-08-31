@@ -1,5 +1,5 @@
 MONGODB_HOST: mongodb-{{ env }}.manikumar.online
-REDIS_HOST  : redis-{{ env }}.manikumar.online
+REDIS_HOST: redis-{{ env }}.manikumar.online
 MYSQL_HOST: mysql-{{ env }}.manikumar.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.manikumar.online 
 CATALOGUE_HOST: catalogue-{{ env }}.manikumar.online
