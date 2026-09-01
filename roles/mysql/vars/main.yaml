@@ -4,3 +4,6 @@ Mysql_Root_password : "{{ lookup('amazon.aws.aws_ssm', '/roboshop/{{ env }}/mysq
 
 
 
+
+
+
