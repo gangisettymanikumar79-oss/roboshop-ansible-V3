@@ -1,16 +1,17 @@
-- name: create roboShop system user
+- name: create roboshop system user
   user:
     name: roboshop
     system: true
     home: /app
     shell: /sbin/nologin
-    comment: "RoboShop system user"
+    comment: "Roboshop System user"
       
       
 - name: remove app directory 
   file:
-      path: /app
-      state: absent
+    path: /app
+    state: absent
+
 - name: "delete {{ component }}.zip"
   file:
     path: "/tmp/{{ component }}.zip"
