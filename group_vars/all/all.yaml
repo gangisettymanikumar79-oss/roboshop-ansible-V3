@@ -1,13 +1,12 @@
-MONGODB_HOST: mongodb-{{ env }}.daws90s.shop
-REDIS_HOST: redis-{{ env }}.daws90s.shop
-MYSQL_HOST: mysql-{{ env }}.daws90s.shop 
-RABBITMQ_HOST: rabbitmq-{{ env }}.daws90s.shop 
-CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.daws90s.shop
-USER_HOST: user.backend-alb-{{ env }}.daws90s.shop
-CART_HOST: cart.backend-alb-{{ env }}.daws90s.shop
-SHIPPING_HOST: shipping.backend-alb-{{ env }}.daws90s.shop
-PAYMENT_HOST: payment.backend-alb-{{ env }}.daws90s.shop
-
+MONGODB_HOST: mongodb-{{ env }}.manikumar.online
+REDIS_HOST: redis-{{ env }}.manikumar.online
+MYSQL_HOST: mysql-{{ env }}.manikumar.online 
+RABBITMQ_HOST: rabbitmq-{{ env }}.manikumar.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.manikumar.online
+USER_HOST: user.backend-alb-{{ env }}.manikumar.online
+CART_HOST: cart.backend-alb-{{ env }}.manikumar.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.manikumar.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.manikumar.online
 
 
 
