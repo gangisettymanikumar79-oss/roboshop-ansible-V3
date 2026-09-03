@@ -14,9 +14,9 @@
     tasks_from: systemd-setup
 
 
-- name: copy mongo repo
+- name: copy mongodb repo
   copy:
-    src: mongodb.repo
+    src: mongo.repo
     dest: /etc/yum.repos.d/mongo.repo
 
 - name: install mongodb client
