@@ -7,7 +7,7 @@ USER_HOST: user.backend-alb-{{ env }}.manikumar.online
 CART_HOST: cart.backend-alb-{{ env }}.manikumar.online
 SHIPPING_HOST: shipping.backend-alb-{{ env }}.manikumar.online
 PAYMENT_HOST: payment.backend-alb-{{ env }}.manikumar.online
-
+Mysql_Root_password: "{{ lookup('amazon.aws.aws_ssm', '/roboshop/dev/mysql_root_password', decrypt=True, region='us-east-1') }}"
 
 
 
